@@ -292,6 +292,29 @@ span.span {
     color: #b0b0b0;
 }
 
+.resumeBtn {
+    background: none;   /* Removes background color */
+    border: none;       /* Removes border */
+    color: inherit;     /* Keeps text color from parent or set your own */
+    padding: 0;         /* Removes default padding */
+    font: inherit;      /* Uses the same font as surrounding text */
+    font-weight: bold; /* Makes the text bold */
+    cursor: pointer; 
+    display: flex;      /* Aligns text and icon */
+    align-items: center; /* Centers items vertically */
+}
+
+.resumeBtn i {
+    margin-left: 8px;  /* Space between text and icon */
+    font-size: 12px;   /* Adjust icon size if needed */
+}
+
+.resumeBtn:hover {
+    color: #e0e0e0;    /* Change text color on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
 .projectsInfo_container {
     margin-bottom: 150px;
 }
@@ -340,6 +363,26 @@ span.span {
     font-size: 16px;
     color: #b0b0b0;
     margin-bottom: 20px;
+}
+
+.projectArchive a {
+    display: flex;      /* Aligns text and icon */
+    align-items: center; /* Centers items vertically */
+    color: inherit;     /* Keeps text color from parent or set your own */
+    font: inherit;      /* Uses the same font as surrounding text */
+    font-weight: bold;
+    text-decoration: none; /* Removes underline */
+}
+
+.projectArchive i {
+    margin-left: 8px;  /* Space between text and icon */
+    font-size: 12px;   /* Adjust icon size if needed */
+}
+
+.projectArchive a:hover {
+    color: #e0e0e0;    /* Change text color on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+    transition: color 0.3s ease; /* Smooth transition */
 }
 
 .copyright_container {
