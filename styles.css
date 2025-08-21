@@ -479,6 +479,7 @@ span.span {
     .projectInfo_details p {
         font-size: 16px;
     }
+
     
 }
 
@@ -632,6 +633,15 @@ span.span {
     .projectInfo_details p {
         font-size: 14px;
     }
+
+    table tr th:nth-child(3) {
+        display: none;
+    }
+
+    table tr td:nth-child(3) {
+        display: none !important;
+    }
+
 }
 
 
