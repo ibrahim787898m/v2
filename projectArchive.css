@@ -114,3 +114,12 @@ table tr td p {
 table tr td p:hover {
     background-color: #8a8a8a;
 }
+
+table tr td a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+table tr td a:hover {
+    text-decoration: underline;
+}
